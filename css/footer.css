@@ -1,0 +1,29 @@
+.mainActiv {
+    text-align: center;
+}
+
+.mainActiv__title {
+    margin-top: 95px;
+}
+
+.mainActiv__product h2 {
+    font-size: 24px;
+    color: #57984C;
+}
+
+.mainActiv__product p {
+    font-size: 18px;
+    margin-bottom: 95px;
+}
+
+.mainActiv__img {
+    margin-bottom: 40px;
+}
+
+.mainActiv__img img {
+    width: 100%;
+}
+
+.mainActiv__line {
+    padding: 10px 0;
+}
