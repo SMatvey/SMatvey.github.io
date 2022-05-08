@@ -1,0 +1,82 @@
+section {
+    background-color: #ffbbdc;
+}
+
+hr {
+    background-color: #324950;
+}
+
+p {
+    font-size: 17px;
+}
+
+.header {
+    background-color: #fff;
+}
+
+.headerImg {
+    background-image: url(../images/TomatoAll/bgTomatoAll.png);
+    background-size: 140%;
+    height: 480px;
+    background-position: center;
+}
+
+.Profile .title_text {
+    font-size: 44px;
+}
+
+.Profile {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.XXX {
+    margin-bottom: 30px;
+}
+
+.StickLeft {
+    border-left: 4px solid #EB5757;
+}
+
+.StickLeft .StickLeft_text {
+    margin-left: 25px;
+}
+
+.TomatoType h1 {
+    font-size: 20px;
+    max-width: 290px;
+}
+
+.TomatoType .container {
+    background-color: #fff;
+}
+
+.TomatoType_items {
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+
+
+.TomatoKind .container {
+    background-color: #ffbbdc;
+}
+
+.TomatoKind h2 {
+    text-align: center;
+    color: #57984C;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.TomatoKind h3 {
+    text-align: center;
+    color: #57984C;
+    font-size: 15px;
+}
+
+.TomatoKind .TomatoKind_items {
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
