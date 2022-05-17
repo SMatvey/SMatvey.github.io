@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/middle.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/ContactUs.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <title>Contact Us</title>
 </head>
 
@@ -25,24 +27,29 @@
                                 <button type="submit"><img src="images/search.png" alt="search"></button>
                         </div>
                         <br>
-                        <div class="ButtUp">
-                            <ul class="Butt d-flex justify-content-center">
-                                <li class="Butt_item"> 
+                        <div class="BurgerMenu"> 
+                            <img src="images/menu.svg" class="openMenu" alt="menu">
+                            <img src="images/close.svg" class="closeMenu" alt="close">
+                        </div>
+
+                        <div class="MenuUp">
+                            <ul class="Menu d-flex justify-content-center">
+                                <li class="Menu_item"> 
                                     <a href="index.html">Home</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="#">Company Profile</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="TomatoAll.html">Products</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="#">Services</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="#">R & D</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="ContactUs.html">Contact</a>
                                 </li>
                             </ul>
@@ -69,7 +76,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="XXX col">
+                <div class="XXX_C col">
                     <img src="images/xxx.png" alt="crosses">
                 </div>
             </div>
@@ -80,7 +87,7 @@
                         <p>Name *</p>
                             <input type="name" required v-model="contactFields.name">
                     </div>
-                    <div class="contactUs_item">
+                    <div class="ContactUs_item">
                         <p>Company Name</p>
                             <input type="name" name="cName" v-model="contactFields.cName">
                     </div>
@@ -225,6 +232,9 @@
                 </div>
             </div>
         </footer>
-    
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="js/menu.js"></script>
+
 </body>
 </html>
