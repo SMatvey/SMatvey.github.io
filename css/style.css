@@ -57,7 +57,7 @@ input:focus, button:focus, textarea:focus {
 
 }
 
-.Butt {
+.Menu {
     padding-top: 50px;
 }
 header {
@@ -69,7 +69,7 @@ li {
 }
 
 
-.Butt_item {
+.Menu_item {
     margin: 0 7px;
 }
 
@@ -81,16 +81,58 @@ li {
     height: 50px;
 }
 
-.Butt_item a {
+
+
+.Menu_item a {
     font-size: 18px;
     color: #324950;
     font-family: 'RotondaMedium';
 }
 
-.ButtUp {
+.MenuUp {
     display: block;
 }
 
+.BurgerMenu {
+    z-index: 10;
+    position: absolute;
+    right: 0;
+}
+
+.BurgerMenu img {
+    height: 30px;
+}
+
+.openMenu {
+    visibility: hidden;
+}
+
+.closeMenu {
+    display: none;
+    width: 25px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.active {
+    z-index: 3;
+    position: absolute;
+    background-color: #4a6e47; 
+    width: 100%;
+    right: 0;
+}
+
+.active a {
+    color: #fff;
+}
+
+.active li {
+    padding-bottom: 30px;
+}
+
+.active.openMenu {
+    display: none;
+}
 
 .search {
     border: 1px;
@@ -98,7 +140,6 @@ li {
     padding-top: 20px;
     padding-right: 20px;
 }
-
 
 .search input[type=text] {
     font-size: 17px;
