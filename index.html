@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=320, initial-scale=1.0"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/middle.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <title>HomePage</title>
 </head>
+
 <body>
     <header id="header" class="header">
         <div class="container">
@@ -23,24 +27,29 @@
                                 <button type="submit"><img src="images/search.png" alt="search"></button>
                         </div>
                         <br>
-                        <div class="ButtUp">
-                            <ul class="Butt d-flex justify-content-center">
-                                <li class="Butt_item"> 
+                        <div class="BurgerMenu"> 
+                            <img src="images/menu.svg" class="openMenu" alt="menu">
+                            <img src="images/close.svg" class="closeMenu" alt="close">
+                        </div>
+
+                        <div class="MenuUp">
+                            <ul class="Menu d-flex justify-content-center">
+                                <li class="Menu_item"> 
                                     <a href="index.html">Home</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="#">Company Profile</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="TomatoAll.html">Products</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="#">Services</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="#">R & D</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="ContactUs.html">Contact</a>
                                 </li>
                             </ul>
@@ -63,43 +72,49 @@
     <section id="products" class="products">
         <div class="container-fluid text-center">
                 <div class="row">
-                <div class="col-md-12 d-flex justify-content-center">
-                    <div class="product_item">
-                        <img src="images/wheat.png" alt="wheat">
-                        <p>Wheat</p> 
+                    <div class="col">
+                        <div class="product_item">
+                            <img src="images/wheat.png" alt="wheat">
+                            <p>Wheat</p> 
+                        </div>
                     </div>
-
-                    <div class="product_item">
-                        <img src="images/watermellon.png" alt="Confection watermelon">
-                        <p>Confection watermelon</p>
+                    <div class="col">
+                        <div class="product_item">
+                            <img src="images/watermellon.png" alt="Confection watermelon">
+                            <p>Confection watermelon</p>
+                        </div>
                     </div>
-
-                    <div class="product_item">
-                        <img src="images/clover.png" alt="Clover">
-                        <p>Clover</p>
+                    <div class="col">
+                        <div class="product_item">
+                            <img src="images/clover.png" alt="Clover">
+                            <p>Clover</p>
+                        </div>
                     </div>
-
-                    <div class="product_item ">
-                        <img src="images/SunFlow.png" alt="Confection Sunflower">
-                        <p>Confection Sunflower</p>
+                    <div class="col">
+                        <div class="product_item ">
+                            <img src="images/SunFlow.png" alt="Confection Sunflower">
+                            <p>Confection Sunflower</p>
+                        </div>
                     </div>
-
-                    <div class="product_item">
-                        <img src="images/tomat.png" alt="Tomato">
-                        <p>Tomato</p>
+                    <div class="col">
+                        <div class="product_item">
+                            <img src="images/tomat.png" alt="Tomato">
+                            <p>   Tomato   </p>
+                        </div>
                     </div>
-
-                    <div class="product_item">
-                        <img src="images/eggplant.png" alt="Eggplant P/O">
-                        <p>Eggplant P/O</p>
+                    <div class="col">
+                        <div class="product_item">
+                            <img src="images/eggplant.png" alt="Eggplant P/O">
+                            <p>Eggplant P/O</p>
+                        </div>
                     </div>
-
-                    <div class="product_item">
-                        <img src="images/ornament.png" alt="Ornamental Sunflower">
-                        <p>Ornamental Sunflower</p>
+                    <div class="col">
+                        <div class="product_item">
+                            <img src="images/ornament.png" alt="Ornamental Sunflower">
+                            <p>Ornamental Sunflower</p>
+                        </div>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
 
@@ -182,7 +197,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="mainActiv_product">
+                    <div class="mainActiv_product mainActiv_last">
                         <div class="mainActiv_img">
                             <img src="images/sunflower.png" alt="sunflower">
                         </div>
@@ -257,5 +272,9 @@
         </div>
     </footer>
 
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
