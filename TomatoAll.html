@@ -4,11 +4,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=320, initial-scale=1.0"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/middle.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/TomatoAll.css">
-    <title>Tomato All</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>Onions All</title>
 </head>
 
 <body>
@@ -25,24 +28,29 @@
                                 <button type="submit"><img src="images/search.png" alt="search"></button>
                         </div>
                         <br>
-                        <div class="ButtUp">
-                            <ul class="Butt d-flex justify-content-center">
-                                <li class="Butt_item"> 
+                        <div class="BurgerMenu"> 
+                            <img src="images/menu.svg" class="openMenu" alt="menu">
+                            <img src="images/close.svg" class="closeMenu" alt="close">
+                        </div>
+
+                        <div class="MenuUp">
+                            <ul class="Menu d-flex justify-content-center">
+                                <li class="Menu_item"> 
                                     <a href="index.html">Home</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="#">Company Profile</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="TomatoAll.html">Products</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="#">Services</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="#">R & D</a>
                                 </li>
-                                <li class="Butt_item">
+                                <li class="Menu_item">
                                     <a href="ContactUs.html">Contact</a>
                                 </li>
                             </ul>
@@ -64,10 +72,10 @@
     <section class="Profile">
         <div class="container">
             <div class="row">
-                <div class="title">
+                <div class="title_tomat">
                     <div class="title_text">
                         <h1>
-                            <h1>Agridera Fresh Market Tomato Hybrids</h1>
+                            <h1>Agridera Fresh Onions Market</h1>
                         </h1>
                     </div>
                 </div>
@@ -78,6 +86,7 @@
                 </div>
             </div>
             <div class="row">
+                <div class="Text col">
                 <p>Agridera aims to be one of the world's leading companies in the breeding, production, and marketing of tomato seeds. <b>We invest intensively in research and development to provide solutions to growers and consumers in numerous countries around the world.</b> In particular, we breed improved disease-resistant cultivars adapted to different markets globally.</p>
                 <p>Currently, emphasis is placed on combining Tomato Yellow Leaf Curl Virus (TYLCV) and Tomato Spotted Wilt Virus (TSWV) resistances with other soil borne diseases into superior tomato breeding lines and hybrids. Moreover, comprehensive efforts are being undertaken to develop varieties resistance to TBRFV virus (Tomato Brown Rugose Fruit Virus).</p>
                 <p>In terms of horticultural traits, breeding is for earliness, different fruit sizes, firmness, red fruit color, flavor, crack resistance, shelf life, and high/low temperature fruit set. Combinations of quality features and disease resistance are sought in a variety of types, namely round and elongated shapes.</p>
@@ -86,6 +95,7 @@
                         Agirdera Tomato breeding programs are focusing on three main segments: Greenhouse Indeterminate Tomatoes, Open-field Indeterminate Tomatoes, and Bush Type Open-field Tomatoes.
                     </div> 
                 </div>
+            </div>
             </div>
         </div>
     </section>
@@ -112,13 +122,15 @@
         </div>
     </section>
 
-    <section class="Profile">
+        <section class="Profile">
         <div class="container">
             <div class="row">
-                <div class="StickLeft">
-                    <div class="StickLeft_text">
-                        <b>Agridera operates through international and local distributers around the world.</b>
-                    </div> 
+                <div class="Text col"> 
+                 <div class="StickLeft">
+                      <div class="StickLeft_text">
+                          <b>Agridera operates through international and local distributers around the world.</b>
+                      </div> 
+                 </div>
                 </div>
             </div>
 
@@ -126,82 +138,24 @@
         </div>
     </section>
 
-    <section class="TomatoKind">
+    <section class="products">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="TomatoKind_items">
-                        <img src="images/TomatoAll/tomato1.png" alt="tomato1">
-                        <h2><b>TAG 1000 (TAG 853)</b></h2>
-                        <h3>Tomato Determinate Red Standard Round</h3>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="TomatoKind_items">
-                        <img src="images/TomatoAll/tomato2.png" alt="tomato2">
-                        <h2><b>TAG 1001 (TAG 855)</b></h2>
-                        <h3>Tomato Determinate Red Standard Round</h3>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="TomatoKind_items">
-                        <a href="TomatoOne.html"><img src="images/TomatoAll/tomato3.png" alt="tomato3">
-                        <h2><b>TAG 1002 (TAG 809)</b></h2>
-                        <h3>Tomato Determinate Red Standard Round</h3></a>
+            <div class="items">
+                <div class="row">
+                    <div class="item col-lg-4 col-md-6" v-if="products" v-for="p in products">
+                        <a :href="'TomatoOne.html#'+p.id">
+                            <img :src="'images/'+p.image" alt="onion">
+                            <div class="item_text">
+                                <h2>{{p.title}}</h2>
+                                <h3>{{p.short_text}}</h3>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="TomatoKind">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="TomatoKind_items">
-                        <img src="images/TomatoAll/tomato4.png" alt="tomato4">
-                        <h2><b>TAG 1003 (TAG 834)</b></h2>
-                        <h3>Tomato Determinate Red Standard Round</h3>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="TomatoKind_items">
-                        <img src="images/TomatoAll/tomato5.png" alt="tomato5">
-                        <h2><b>TAG 1004 (TAG 848)</b></h2>
-                        <h3>Tomato Determinate Red BEEF Round</h3>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="TomatoKind_items">
-                        <img src="images/TomatoAll/tomato6.png" alt="tomato6">
-                        <h2><b>TAG 1005 (TAG 800)</b></h2>
-                        <h3>Tomato Determinate Red Standard Round</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="TomatoKind">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="TomatoKind_items">
-                        <img src="images/TomatoAll/tomato7.png" alt="tomato7">
-                        <h2><b>TAG 1006 (TAG 896)</b></h2>
-                        <h3>Tomato Determinate Red Elongated</h3>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="TomatoKind_items">
-                        <img src="images/TomatoAll/tomato8.png" alt="tomato8">
-                        <h2><b>TAG 1007 (TAG 816)</b></h2>
-                        <h3>Tomato Determinate Red Elongated</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 <section id="footerUp" class="footerUp">
     <div class="container">
@@ -263,6 +217,11 @@
             </div>
         </div>
     </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 </html>
