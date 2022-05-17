@@ -14,7 +14,7 @@
     padding-bottom: 70px;
 }
 
-.XXX {
+.XXX_C {
     padding-bottom: 30px;
 }
 
@@ -91,4 +91,9 @@
 
 .address_text .line {
     padding: 20px;
+}
+
+.table .Imm img {
+    height: 60px;
+    width: 60px;
 }
