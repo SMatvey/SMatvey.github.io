@@ -1,8 +1,8 @@
 .headerImg {
-
     background-image: url(../images/ContactUs/TopImages.png);
     height: 480px;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .header {
